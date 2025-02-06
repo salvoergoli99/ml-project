@@ -1,0 +1,10 @@
+----------------------------------FINAL MODEL-----------------------------------
+The used final model is an Ensamble Wighted Average. The weighted average involves assigning distinct weights to each model's predictions before computing the aggregate.
+We chose to average the predictions of the different neural networks first, and then average this combined prediction with the SVM predictions. 
+This approach aimed to leverage the complementary strengths of neural networks and SVMs, potentially enhancing the overall predictive performance of the ensemble.
+
+---------------------------------VALIDATION MODEL---------------------------------
+For the competition, the dataset was divided into 90% training (TR) and 10% internal test (TS). 
+The training set (TR) was further split into 80% training (TR) and 20% validation (VL), forming the development set.
+Subsequently, we conducted a random search and a grid search with 5-fold cross-validation (k = 5) to identify the optimal hyperparameters during the model selection phase for the MLP using scikit-learn and for our model, while for the MLP with Keras, we executed two grid searches.
+Mean Squared Error (MSE) was used as the loss function, while Mean Euclidean Error (MEE) was employed as the evaluation metric.
