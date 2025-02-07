@@ -39,15 +39,15 @@ The project is structured as follows:
 
 To run the notebooks and code in this project, you need the following dependencies:
 
-Python == 3.10.0 or more
-Numpy == 1.26.4
-Tensorflow == 2.16.1
-Pandas == 2.2.2
-Seaborn == 0.13.2
-Matplotlib == 3.8.4
-Scikit-learn == 1.4.2
-Keras == 3.3.2
-Scikeras == 0.13.0
+- Python == 3.10.0 or more
+- Numpy == 1.26.4
+- Tensorflow == 2.16.1
+- Pandas == 2.2.2
+- Seaborn == 0.13.2
+- Matplotlib == 3.8.4
+- Scikit-learn == 1.4.2
+- Keras == 3.3.2
+- Scikeras == 0.13.0
 
 ## Results
 
